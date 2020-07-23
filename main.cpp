@@ -63,9 +63,6 @@ BigInt Integer(int x) {
     return Integer((ll) x);
 }
 
-
-
-
 void operator >> (istream &in, BigInt &a) {
     string s;
     getline(cin, s);
@@ -75,9 +72,6 @@ void operator >> (istream &in, BigInt &a) {
 void operator << (ostream &out, BigInt a) {
     Print(a);
 }
-
-
-
 
 bool operator < (BigInt a, BigInt b) {
     Set(a);
@@ -135,8 +129,6 @@ BigInt min(BigInt a, BigInt b) {
     if (a < b) return a;
     return b;
 }
-
-
 
 
 BigInt operator + (BigInt a, BigInt b) {
